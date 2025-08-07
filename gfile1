@@ -1,6 +1,12 @@
 this is the first file in the git of first project
 I am sudhakar
 I am learning deveps
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // This line prints "Hello, World!" to the console
+        System.out.println("Hello, World!");
+    }
 public static void main(String[] args) {
         // Create an object of the MathOperations class
         MathOperations calculator = new MathOperations();
@@ -9,3 +15,4 @@ public static void main(String[] args) {
         int result = calculator.addNumbers(10, 5);
 }
 }
+
