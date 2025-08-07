@@ -1,3 +1,11 @@
 this is the first file in the git of first project
 I am sudhakar
 I am learning deveps
+public static void main(String[] args) {
+        // Create an object of the MathOperations class
+        MathOperations calculator = new MathOperations();
+
+        // Call the addNumbers method and store the result
+        int result = calculator.addNumbers(10, 5);
+}
+}
