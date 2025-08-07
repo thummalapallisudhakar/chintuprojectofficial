@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+        // Create an object of the MathOperations class
+        MathOperations calculator = new MathOperations();
+
+        // Call the addNumbers method and store the result
+        int result = calculator.addNumbers(10, 5);
+
+        // Print the result
+        System.out.println("The sum is: " + result); // Output: The sum is: 15
+    }
+}
